@@ -12,7 +12,7 @@ export const profile = {
 // EXEMPLO: substitua pelos seus projetos reais e remova `isExample`.
 export const projects: Project[] = [
 { id: 'clinica', name: 'Saara Odontologia', segment: 'Saúde e Odontologia', kind: 'web', isExample: false, problem: 'Pacientes precisam encontrar serviços, equipe e formas de contato rapidamente.', desc: 'Site institucional de odontologia, feito para o portfólio como exemplo.', stack: ['React', 'CSS3'], demo: 'https://saaraodontologia.pages.dev' },
-  { id: 'empresa', name: 'Site institucional', segment: 'Empresas e negócios', kind: 'web', isExample: true, problem: 'A empresa precisa transmitir credibilidade e apresentar o que oferece.', desc: 'Exemplo: apresentação da empresa, serviços e canal de contato.', stack: ['HTML5', 'CSS3', 'JavaScript'] },
+  { id: 'empresa', name: 'Estrata', segment: 'Empresas e negócios', kind: 'web', isExample: false, problem: 'A empresa precisa transmitir credibilidade e apresentar o que oferece.', desc: 'Site apresentação da empresa, serviços e canal de contato.', stack: ['HTML5', 'CSS3', 'JavaScript'], demo: 'https://estrata-six.vercel.app/' },
   { id: 'landing', name: 'Meu portfólio web', segment: 'Meu portfólio', kind: 'web', isExample: false, problem: '.', desc: 'A landing page deste portfólio (gabrielbiagi.vercel.app). ', stack: ['React', 'CSS3'], demo: 'https://gabrielbiagi.vercel.app'},
   { id: 'webapp', name: 'Aplicação web', segment: 'Aplicações web', kind: 'web', isExample: true, problem: 'Uma rotina manual precisa virar um fluxo digital organizado.', desc: 'Exemplo: aplicação com painel, dados persistidos e autenticação.', stack: ['Python', 'Node.js', 'MySQL'] },
 ]
